@@ -2,8 +2,8 @@
 
 Este projeto realiza uma análise completa de teste de caixa branca (white box testing) sobre a classe `User`, escrita em Java, responsável por duas operações fundamentais:
 
-- Conexão com o banco de dados (conectarBD)
-- Verificação de credenciais de usuário (verificarUsuario)
+- Conexão com o banco de dados (`conectarBD()`)
+- Verificação de credenciais de usuário (`verificarUsuario()`)
 
 A atividade envolve:
 
@@ -21,28 +21,32 @@ A atividade envolve:
 
 A planilha preenchida se encontra no repositório.
 
-Arquivo:
-INSERIR-NOME-PLANILHA-AQUI.png
+📎 **Planilha:**
+
+![Planilha](Planilha_TesteDeCaixaBranca.png)
 
 ------------------------------------------------------------------------------------
 
 ## 📊 2. Fluxograma da Classe Completa
 
-Fluxograma do código completo da classe User:
+Fluxograma representando o fluxo da classe `User`:
 
-INSERIR-NOME-FLUXOGRAMA-AQUI.png
+📎 **Fluxograma:**
+
+![Fluxograma](fluxogramaUser.jpg)
 
 ------------------------------------------------------------------------------------
 
 ## 🔵 3. Grafo de Fluxo de Controle (CFG)
 
-Grafo construído com base no fluxograma completo da classe.
+Grafo de fluxo construído com base no fluxograma completo da classe.
 
-Arquivo XML (draw.io):
-INSERIR-NOME-ARQUIVO-XML-AQUI.xml
+📎 **Imagem do grafo:**
 
-Imagem do grafo:
-INSERIR-NOME-IMAGEM-GRAFO-AQUI.png
+![Grafo](grafoUser.jpg)
+
+📎 **Arquivo XML (draw.io):**  
+INSERIR-AQUI-O-ARQUIVO-XML-APÓS-O-UPLOAD
 
 ------------------------------------------------------------------------------------
 
@@ -70,40 +74,38 @@ N14 → Saída do método verificarUsuario()
 
 A complexidade ciclomática foi calculada usando a fórmula:
 
-M = E – N + 2P
+**M = E – N + 2P**
 
-Onde:
-E = número de arestas  
-N = número de nós  
-P = número de componentes conectados  
+Onde:  
+- E = número de arestas  
+- N = número de nós  
+- P = número de componentes conectados  
 
-Resultados:
+### **Resultado**
 
-Método conectarBD → 2  
-Método verificarUsuario → 3  
+- Método `conectarBD()` → 2  
+- Método `verificarUsuario()` → 3  
+- **Complexidade total da classe → M = 5**
 
-Complexidade total da classe:
-M = 5
-
-São necessários 5 testes independentes para cobrir todos os caminhos.
+📌 São necessários **5 testes independentes** para cobrir todos os caminhos da classe.
 
 ------------------------------------------------------------------------------------
 
 ## 🛤️ 6. Caminhos Básicos (Detalhados)
 
-CAMINHO BÁSICO 1 – conectarBD() (fluxo normal)
+### ✔ CAMINHO BÁSICO 1 – conectarBD() (fluxo normal)
 N1 → N2 → N3 → N5 → N6
 
-CAMINHO BÁSICO 2 – conectarBD() (exceção)
+### ✔ CAMINHO BÁSICO 2 – conectarBD() (exceção)
 N1 → N2 → N3 → N4 → N5 → N6
 
-CAMINHO BÁSICO 3 – verificarUsuario() (usuário encontrado)
+### ✔ CAMINHO BÁSICO 3 – verificarUsuario() (usuário encontrado)
 N7 → N8 → N9 → N10(true) → N11 → N13 → N14
 
-CAMINHO BÁSICO 4 – verificarUsuario() (usuário não encontrado)
+### ✔ CAMINHO BÁSICO 4 – verificarUsuario() (usuário não encontrado)
 N7 → N8 → N9 → N10(false) → N13 → N14
 
-CAMINHO BÁSICO 5 – verificarUsuario() (exceção)
+### ✔ CAMINHO BÁSICO 5 – verificarUsuario() (exceção)
 N7 → N8 → N9 → N12 → N13 → N14
 
 ------------------------------------------------------------------------------------
@@ -120,17 +122,16 @@ CAMINHO 5 = N7 ; N8 ; N9 ; N12 ; N13 ; N14
 
 ## 📘 8. Arquivos Incluídos no Repositório
 
-- Código fonte da classe User
-- Planilha de teste estático
-- Fluxograma completo
-- Grafo de fluxo (imagem + XML)
-- Caminhos básicos
-- Complexidade ciclomática
-- README completo
+- Código fonte da classe User  
+- `Planilha_TesteDeCaixaBranca.png`  
+- `fluxogramaUser.jpg`  
+- `grafoUser.jpg`  
+- Arquivo XML contendo o grafo (após upload)  
+- README completo  
 
 ------------------------------------------------------------------------------------
 
 ## 👨‍💻 Autor
 
-Breno Gustavo Rocha de Almeida  
+**Breno Gustavo Rocha de Almeida**  
 Análise e Desenvolvimento de Sistemas – FACENS
