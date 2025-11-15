@@ -13,7 +13,6 @@ A atividade envolve:
 - Construção e análise do grafo de fluxo
 - Cálculo da complexidade ciclomática
 - Identificação dos caminhos básicos independentes
-- Criação deste README para documentação e entrega
 
 ------------------------------------------------------------------------------------
 
