@@ -44,8 +44,6 @@ Grafo de fluxo construído com base no fluxograma completo da classe.
 
 ![Grafo](grafoUser.jpg)
 
-📎 **Arquivo XML (draw.io):**  
-INSERIR-AQUI-O-ARQUIVO-XML-APÓS-O-UPLOAD
 
 ------------------------------------------------------------------------------------
 
